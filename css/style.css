@@ -1,0 +1,263 @@
+/*theme de couleur: #041C32 bleu marine
+                    #04293A bleu marine clair
+                    #064663 navy
+                    #ECB365 orange clair
+                    #EEEEEE blanc vintage*/
+
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color:#041C32;
+}
+/* pour la page navbae*/
+#navbar{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 10vh;
+    background-color: #04293A;
+    align-items: center;
+    color: #EEEEEE ;
+}
+
+#titre{
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+}
+
+#titre h1{
+    margin-left: 10px;
+}
+
+#titre img{
+    padding-top: 20px;
+    width: 65px;
+    height: 40px;
+}
+
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 30px;
+}
+
+#navbar ul li{
+    list-style-type: none;
+    margin-left: 20px;
+}
+
+#navbar ul a{
+    text-decoration: none;
+    color: #EEEEEE;
+}
+/*index*/
+
+#AcceuilTask h1{
+    color: #EEEEEE;
+    text-align: center;
+}
+
+#ConnecToi{
+    margin-top: 120px;
+    text-align: center;
+    border: 2px solid #ECB365;
+    padding: 50px;
+    border-radius: 30px;
+}
+
+#ConnecToi a{
+    text-decoration: none;
+    color: #EEEEEE;
+}
+
+#listTask{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.taskCategorie a{
+    text-decoration: none;
+    color: #EEEEEE;
+}
+
+.taskCategorie {
+    width: 400px;
+    height: 100px;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+.taskCategorie h2{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+/*page de compte*/
+
+#detailCompte {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #04293A;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#intituléCompte h2 {
+    color: #ECB365;
+    text-align: center;
+}
+
+#intituléCompte h3 {
+    color:#EEEEEE;
+    text-align: center;
+}
+
+#intituléCompte button {
+    display: flex;
+    align-items: center;
+    background-color: #ECB365;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#intituléCompte button a {
+    text-decoration: none;
+    color: #04293A;
+    font-weight: bold;
+    display: inline-block;
+}
+
+#intituléCompte button:hover {
+    background-color: #064663;
+}
+
+#intituléCompte button a i {
+    margin-left: 10px;
+}
+
+#infoCompte p {
+    background-color: #064663;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px 0;
+    color: #EEEEEE;
+}
+
+/*listTask*/
+
+#Tasklist{
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+}
+
+#Tasklist::-webkit-scrollbar {
+    display: none;
+}
+
+.taskdetail{
+    color: #EEEEEE;
+    border: 2px solid #ECB365;
+    border-radius: 30px;
+    width: 300px;
+    height: auto;
+    margin: 30px;
+    padding: 20px;
+}
+
+.taskdetail form{
+    text-align: center;
+}
+
+.taskdetail button{
+    border: 2px solid #ECB365;
+    background-color: #ECB365;
+    color: #041C32;
+    border-radius: 6px;
+}
+
+.taskdetail button:hover{
+    background-color: darkred;
+    border-color: darkred;
+    color: #EEEEEE;
+}
+
+/*nouvTache*/
+
+#CategorieTache, #Ajoutdetache {
+    text-align: center;
+    background-color: #041C32;
+    color: #EEEEEE;
+    padding: 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+h2 {
+    color: #ECB365;
+}
+
+.inputCat, .inputTask {
+    width: 98%;
+    padding: 10px;
+    margin-bottom: 5px;
+    border: none;
+    border-radius: 5px;
+}
+
+.inputCat[type="submit"], .inputTask[type="submit"] {
+    background-color: #ECB365;
+    color: #041C32;
+    cursor: pointer;
+}
+
+#inputCatSup{
+    width: 40%;
+    padding: 10px;
+    margin-bottom: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ECB365;
+    color: #041C32;
+    cursor: pointer;
+}
+
+#inputCatSup:hover{
+    background-color: darkred;
+    color: #EEEEEE;
+}
+
+.inputCat[type="submit"]:hover, .inputTask[type="submit"]:hover {
+    background-color: #064663;
+    color: #EEEEEE;
+}
+
+#selecttask {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    color: #041C32;
+    background-color: #04293A;
+    color: #EEEEEE;
+}
+
+.optionCat {
+    color: #EEEEEE;
+}
+
+.optionCat:hover {
+    background-color: #064663;
+}
