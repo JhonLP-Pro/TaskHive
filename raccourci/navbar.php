@@ -10,7 +10,7 @@
         if (isset($_SESSION['user'])){
             echo "<li><a href='compte.php'>".$_SESSION['user']['pseudo']."</a></li>";
         }else{
-            echo "<li><a href='inscription.php'>Login/Sign-in</a></li>";
+            echo "<li><a href='inscription.php'>Connexion/Inscription</a></li>";
         }
         ?>
     </ul>
